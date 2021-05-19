@@ -58,29 +58,3 @@ demo              7.77  38.23            0.80         0.84     0.82             
 In case of using the software please cite:\
 F. Landini, J. Profant, M. Diez, L. Burget: [Bayesian HMM clustering of x-vector sequences (VBx) in speaker diarization: theory, implementation and analysis on standard tasks](https://arxiv.org/abs/2012.14952)
 
-
-
-## Results
-We present here the results of our systems for the different datasets and different evaluation protocols. A more thorough discussion on the protocols and results can be found in the paper. All results are obtained using oracle VAD.
-
-```
-CALLHOME                         DIHARD II
------------------                -------------------------
-Protocol    DER                  Protocol        DER
-Forgiving   4.42	                      dev    eval
-Fair        14.21                Full        18.19   18.55
-Full        21.77                Fair        12.23   12.29
-
-AMI beamformed                   AMI Mix-Headset
--------------------------        -------------------------
-Protocol         DER             Protocol         DER 
-             dev     eval                     dev     eval
-Forgiving    2.80    3.90        Forgiving    1.56    2.10
-Fair        10.81   14.23        Fair         9.68   12.53
-Full        17.66   20.84        Full        16.33   18.99
-```
-
-
-## License
-
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
