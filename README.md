@@ -31,7 +31,7 @@ conda activate VBx
 ```
 Clone the repository
 ```bash
-git clone https://github.com/BUTSpeechFIT/VBx.git
+git clone https://github.com/Sangramsingkayte/VBx.git
 ```
 Install the package
 ```bash
